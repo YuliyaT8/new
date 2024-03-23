@@ -1,0 +1,165 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+}
+
+.section {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.sale-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    width: 335px;
+    
+}
+
+.sale-list-item {
+    width: 52px;
+    gap: 5px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 2px;
+    padding: 12px 14px;
+}
+
+.watch-big {
+    width: 235px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 2px;
+    padding: 50px;
+}
+
+.prodact-main {
+background-color: #3350E9;
+border-radius: 30px;
+width: 335px;
+padding: 48px 28px 429px;
+height: 561px;
+}
+
+.title-sale {
+font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.02em;
+color: #fbfbfb;;
+margin-bottom: 10px;
+}
+
+.title-product {
+font-family: "Gilroy", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.5);
+margin-bottom: 20px;
+}
+
+.price-first-end{
+display: flex;
+flex-wrap: nowrap;
+margin-bottom: 20px;
+}
+
+.price-first {
+font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.5);
+padding: 8px 12px;
+margin-left: 28px;
+border-radius: 8px;
+text-align: left;
+}
+
+.price-end {
+font-family: "Gilroy", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.5);
+}
+
+.text-prodact {
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.7);
+padding: 212px 28px 188 px;
+margin-bottom: 28px;
+}
+
+.button {
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 1.33;
+display: inline-block;
+margin: 5px;
+padding: 10px 20px;
+border-radius: 8px;
+background-color: #3350E9;
+color: white;
+text-align: center;
+padding: 8px 12px;
+}
+
+@media (max-width: 768px) {
+    .button {
+        display: block;
+        width: 100%;
+    }
+}
+
