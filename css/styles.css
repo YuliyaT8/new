@@ -102,32 +102,33 @@ color: rgba(251, 251, 251, 0.5);
 margin-bottom: 20px;
 }
 
-.price-first-end{
-display: flex;
-flex-wrap: nowrap;
-margin-bottom: 20px;
+.price-container {
+    display: flex;
+    align-items: center;
 }
 
-.price-first {
-font-family: "Gilroy", sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.25;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5);
-padding: 8px 12px;
-margin-left: 28px;
-border-radius: 8px;
-text-align: left;
-}
+.current-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 152px 239px 377px 28px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: color: rgba(251, 251, 251, 0.5);
+    text-align: left;
+  }
 
-.price-end {
-font-family: "Gilroy", sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.25;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.5);
+.old-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
 }
 
 .text-prodact {
