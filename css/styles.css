@@ -72,6 +72,8 @@ margin-right: 20px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 2px;
     padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .prodact-main {
@@ -103,12 +105,15 @@ margin-bottom: 20px;
 }
 
 .price-container {
+    font-family: "Gilroy", sans-serif;
+    font-weight: normal;
     display: flex;
     align-items: center;
+    width: 68px;
+    margin-bottom: 28px;
 }
 
 .current-price {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -116,10 +121,11 @@ margin-bottom: 20px;
     color: white;
     padding: 9px 9px;
     margin-right: 9px;
-    border: 1px solid black;
+    border: none;
     border-radius: 8px;
     background-color: rgba(251, 251, 251, 0.5);
     text-align: left;
+    
   }
 
 .old-price {
@@ -148,13 +154,11 @@ font-weight: 500;
 font-size: 12px;
 line-height: 1.33;
 display: inline-block;
-margin: 5px;
-padding: 10px 20px;
 border-radius: 8px;
 background-color: #3350E9;
 color: white;
 text-align: center;
-padding: 8px 12px;
+gap: 8px;
 }
 
 @media (max-width: 768px) {
