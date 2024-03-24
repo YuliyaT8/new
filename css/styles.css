@@ -161,5 +161,10 @@ color: white;
 text-align: center;
 gap: 8px;
 border: 1px solid rgba(251, 251, 251, 0.5);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 123px;
+    height: 32px;
+
 }
 
