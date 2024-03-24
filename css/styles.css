@@ -74,6 +74,8 @@ margin-right: 20px;
     padding: 50px;
     margin-right: 20px;
     margin-left: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 .prodact-main {
@@ -81,7 +83,6 @@ background-color: #3350E9;
 border-radius: 30px;
 width: 335px;
 padding: 48px 28px 429px;
-height: 561px;
 }
 
 .title-sale {
@@ -161,5 +162,4 @@ text-align: center;
 gap: 8px;
 border: 1px solid rgba(251, 251, 251, 0.5);
 }
-
 
