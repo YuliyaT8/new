@@ -159,12 +159,7 @@ background-color: #3350E9;
 color: white;
 text-align: center;
 gap: 8px;
+border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
-@media (max-width: 768px) {
-    .button {
-        display: block;
-        width: 100%;
-    }
-}
 
